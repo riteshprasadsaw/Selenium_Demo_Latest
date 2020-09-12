@@ -24,10 +24,10 @@ public class AppTest
         options.addArguments("--disable-gpu"); // applicable to windows os only
         options.addArguments("--disable-dev-shm-usage"); // overcome limited resource problems
         options.addArguments("--no-sandbox"); // Bypass OS security model
-        WebDriver driver = new ChromeDriver(options);
+       
         WebDriverManager.chromedriver().setup();
-
         WebDriver driver = new ChromeDriver(options);
+        
         System.out.println("In test 1");
         driver.get("http://google.com");
         String expectedPageTitle = "Google";
