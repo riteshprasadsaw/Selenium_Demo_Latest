@@ -16,7 +16,7 @@ public class AppTest
     @Test
     public void shouldAnswerWithTrue()
     {
-        ChromeOptions options = new ChromeOptions();
+       
         ChromeOptions options = new ChromeOptions();
         options.addArguments("start-maximized"); // open Browser in maximized mode
         options.addArguments("disable-infobars"); // disabling infobars
